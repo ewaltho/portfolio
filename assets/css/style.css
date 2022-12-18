@@ -1,0 +1,138 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: mistyrose;
+}
+
+header {
+    background: slategray;
+    overflow: hidden;
+    font-size: 25px;
+    padding-left: 25px;
+}
+header a {
+    float: left;
+    color: blanchedalmond;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+  }
+
+.link {
+    float: right;
+    margin-right: 20px;
+    padding-bottom: 20px;
+  }
+
+.link:hover{
+    background: saddlebrown;
+    color: lightgrey;
+    border-radius: 25px;
+}
+  
+.city {
+    height: 20vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://cdn.pixabay.com/photo/2014/03/03/16/12/village-279013_1280.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+main {
+    min-height: 70vh;
+    padding: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.work {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    justify-content: end;
+}
+
+.work h3 {
+    border: 2px solid darkslategray;
+    border-radius: 10px;
+    position: relative;
+    bottom: 12px;
+    background: mistyrose;
+}
+
+.work img {
+    margin-top: 8px;
+    vertical-align: text-bottom;
+    flex-grow: 1;
+    display: flex;
+    align-items: flex-end;
+    user-select: all;
+}
+
+h2 {
+    max-width: 15%;
+    font-size: 220%;
+}
+
+section {
+    display: flex;
+}
+
+p {
+    font-size: 100%;
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+}
+
+aside {
+    margin: 20px;
+    border-right: 7px double rgb(47, 106, 107);
+}
+
+#contact-links {
+    justify-content: center;
+    text-align: center;
+    line-height: 25px;
+    color: darkslategray;
+    padding: 20px;
+}
+
+/* footer{
+    overflow: hidden;
+    padding-left: 25px;
+}
+
+footer a{
+    float: left;
+    color: darkslategrey;
+    text-align: center;
+    padding: 0 12px;
+    text-decoration: none;
+    line-height: 25px;
+} */
+
+@media screen and (max-width: 768px) {
+    header nav{
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+/* @media screen and (mad-width: 480px) {
+    }
+} */
