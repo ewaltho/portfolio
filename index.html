@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,65 +10,106 @@
 </head>
 
 <body>
-        <header>
-            <h1>Portfolio</h1>
-            <nav>
-                <a href="" class="link">Resume</a>
-                <a href="#contact" class="link">Contact</a>
-                <a href="#work" class="link">Work</a>
-                <a href="#about" class="link">About Me</a>
-            </nav>
-        </header>
-        <figure class="city"></figure>
+    <header>
+        <h1>Portfolio</h1>
+        <nav class="nav-link">
+            <a href="#about" class="link">About Me</a>
+            <a href="#work" class="link">Work</a>
+            <a href="#contact-links" class="link">Contact</a>
+            <a href="" class="link">Resume</a>
+        </nav>
+    </header>
+    <figure class="city">
+        <!-- <h4 id="subtitle">Subtitle</h4> -->
+    </figure>
+
     <main>
         <section class="about">
-            <aside>
+            <aside class="section-title">
                 <h2>About Me</h2>
             </aside>
             <div class="content">
-                <p>Ciao a tutti! Mi chiamo Emma. Sono ventidue anni e abito a Seattle. Mi piacciono i cavalli e i videogiochi. Il mio gruppo musicale preferito sono i Måneskin. Voglio essere un sviluppatore web.</p>
+                <p>Ciao a tutti! Mi chiamo Emma. Sono ventidue anni e abito a Seattle. Mi piacciono i cavalli e i
+                    videogiochi. Il mio gruppo musicale preferito sono i Måneskin. Voglio essere un sviluppatore web.
+                </p>
             </div>
         </section>
-          <section class="work-header">    
-             <aside>
-               <h2>Work</h2>
-             </aside>
-        </section>
+
         <section class="work">
-                <a href="#" target="_blank">
-                    <img src="./assets/images/surf.jpg" class="surf" width="800px" height="600px"></img>
-                </a>
-                <h3 class="title" id="surf">Surf Report</h3>
-                <a href="#" target="_blank">
-                    <img src="./assets/images/calculator.jpg" class="calculator" width="400px" width="300px"></img>
-                </a>
-                <h3 class="title" id="calculator">Calculator App</h3>
-                <a href="#" target="_blank">
-                    <img src="./assets/images/led.jpg" class="led" width="400px" width="300px"></img>
-                </a>
-                <h3>LED Wall</h3>
-                <a href="#" target="_blank">
-                    <img src="./assets/images/run.jpg" class="run" width="400px" width="300px"></img>
-                </a>
-                <h3>Run Buddy</h3>
-                <a href="#" target="_blank">
-                    <img src="./assets/images/puzzle.jpg" class="puzzle" width="400px" width="300px"></img>
-                </a>
-                <h3>Pastel Puzzle</h3>
-          </section>
-        </main>
-        <footer>
-          <aside>
-                <h2>Contact</h2>
-          </aside>
-          <nav class="contact-links">
-                <a href="https://www.spotify.com" target="_blank" class="link" id="contact-links">Spotify</a>
-                <a href="https://www.twitter.com" target="_blank" class="link" id="contact-links">Twitter</a>
-                <a href="" target="_blank" class="link" id="contact-links">GitHub</a>
-                <a href="mailto: ejwaltho@gmail.com" class="link" id="contact-links">Email</a>
-                <a href="#" class="link" id="contact-links">444-444-4444</a>
-          </nav>
-        </footer>
-    
+            <aside class="section-title">
+                <h2>Work</h2>
+            </aside> 
+                
+            <div class="card-container">
+                <!--The big card-->
+                <div class="main-page">
+                    <a href="#" target="_blank">
+                        <div class="main-card">
+                            <div class="card-title">
+                                <h3>Card 1</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!--the smaller cards-->
+                <div class="page">
+                    <a href="#" target="_blank">
+                        <div class="card card-2" id="card-2">
+                            <div class="card-title">
+                                <h3>Card 2</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="page">
+                    <a href="#" target="_blank">
+                        <div class="card card-3">
+                            <div class="card-title">
+                                <h3>Card 3</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="page">
+                    <a href="#" target="_blank">
+                        <div class="card card-4">
+                            <div class="card-title">
+                                <h3>Card 4</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="page">
+                    <a href="#" target="_blank">
+                        <div class="card card-5">
+                            <div class="card-title">
+                                <h3>Card 5</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="contact">
+        <aside class="section-title">
+            <h2>Contact</h2>
+        </aside>
+        <nav class="contact-links">
+            <a href="https://www.spotify.com" target="_blank" class="link" id="contact-links">Spotify</a>
+            <a href="https://www.twitter.com" target="_blank" class="link" id="contact-links">Twitter</a>
+            <a href="" target="_blank" class="link" id="contact-links">GitHub</a>
+            <a href="mailto: ejwaltho@gmail.com" class="link" id="contact-links">Email</a>
+            <a href="#" class="link" id="contact-links">444-444-4444</a>
+        </nav>
+    </footer>
+
 </body>
+
 </html>
