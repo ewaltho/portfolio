@@ -4,13 +4,6 @@
 
 My goal was to create a site to view all of my bootcamp projects with helpful contact links and an interactive menu. I learned how to better create flex boxes and format media queries.
 
-## Table of Contents (Optional)
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
-
 ## Installation
 
 N/A
